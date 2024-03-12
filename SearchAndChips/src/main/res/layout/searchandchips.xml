@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:id="@+id/searchcardlay"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:id="@+id/serchbutton"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+android:layout_alignParentRight="true"
+android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitCenter"
+                android:background="#FFFFFF"
+                android:src="@drawable/search" />
+
+            <EditText
+                android:id="@+id/search"
+                android:layout_width="match_parent"
+                android:layout_toLeftOf="@+id/serchbutton"
+                android:layout_height="match_parent"
+                android:textSize="16sp"
+
+                android:paddingLeft="10dp"
+                android:background="#FFFFFFFF"
+                android:hint="SEARCH"
+                 />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+
+        android:layout_below="@+id/searchcardlay"
+        android:id="@+id/chips"
+        android:visibility="visible"
+        />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_below="@+id/chips"
+        android:id="@+id/serchresult"
+        />
+
+</RelativeLayout>
