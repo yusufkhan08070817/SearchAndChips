@@ -38,7 +38,7 @@ dependencies {
 * Allow users to search for items and select them by clicking on the search results.
 * Retrieve the selected items using the provided ArrayList of chips for further processing or display.
 
-#Example
+# Example 
 
 ```
 
