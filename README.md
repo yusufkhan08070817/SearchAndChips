@@ -1,7 +1,7 @@
 # Search and Chips Library for Android ` kotlin`
 ###
 ### Welcome to the Search and Chips Library, a Kotlin-based Android library designed to simplify the process of searching for items and creating chips for selection.
-# `Overview`
+# Overview
 * The Search and Chips Library provides a custom view called `<com.example.searchandchips.library.search.Search_and_Chips />.`
 *  This view integrates seamlessly into your Android applications,
 *   offering users a convenient way to search for items and select them through the creation of chips.
